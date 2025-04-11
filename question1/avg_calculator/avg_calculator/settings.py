@@ -26,6 +26,7 @@ SECRET_KEY = "django-insecure-8ap3^&y8ge5r6jyfout+li$x#0y+ea(wgp*+6o$syd$p!z)u%&
 DEBUG = True
 
 ALLOWED_HOSTS = []
+ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQ0MzgzNjg3LCJpYXQiOjE3NDQzODMzODcsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImJhNzY3ZmZhLTY1ZTItNDQzNi1iMDc4LTNjNDRlN2M5M2U5NCIsInN1YiI6Im11a2tzczE2MDJAZ21haWwuY29tIn0sImVtYWlsIjoibXVra3NzMTYwMkBnbWFpbC5jb20iLCJuYW1lIjoibXVrZXNoIG0iLCJyb2xsTm8iOiI0Y2IyMmFpMDM2IiwiYWNjZXNzQ29kZSI6Im5aWURxSCIsImNsaWVudElEIjoiYmE3NjdmZmEtNjVlMi00NDM2LWIwNzgtM2M0NGU3YzkzZTk0IiwiY2xpZW50U2VjcmV0IjoiRlZzcnJWenVjR1lhSm5hRyJ9.F7QfzHxPFHx6Kq1m2iRQB91D-o33UKu9RFfcM1qeGAA"
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "numes",
 ]
 
 MIDDLEWARE = [
